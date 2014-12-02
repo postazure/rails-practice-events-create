@@ -1,5 +1,5 @@
 Index
-<table>
+<table class="table">
   <thead>
     <tr>
       <th>
@@ -36,6 +36,9 @@ Index
         </td>
         <td>
           <%= event.directions %>
+        </td>
+        <td>
+          <%= link_to "Edit", edit_event_path(event) %>
         </td>
       </tr>
     <% end %>
